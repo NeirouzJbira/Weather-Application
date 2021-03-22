@@ -1,0 +1,26 @@
+.daily-board{
+    background-color: white;
+    box-shadow: 0px 4px 9px rgba(129, 129, 129, 0.2);
+    border-radius: 8px;
+    width: 70%;
+    height: 150px;
+    text-align: center;
+    padding: 18px;
+}
+
+.daily-board:hover{
+    background-color: rgba(250, 250, 250, 0.88);
+}
+
+.image{
+    background-image: url("../images/sunny.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.tempreture{
+    font-weight: 800;
+}
